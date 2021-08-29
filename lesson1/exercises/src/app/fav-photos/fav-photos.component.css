@@ -3,9 +3,11 @@ h3 {
 }
 
 img {
-
+   width: 300px;
 }
 
 .photos {
    text-align: center;
+   border-left-color: rgb(46, 19, 19);
 }
+
