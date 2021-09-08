@@ -7,10 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ButtonsComponent implements OnInit {
    buttonHeading: string = "Buttons"
-   inactive: boolean = false;
+   allButtons: string[] = [
+      inactiveG: false,
+      inactiveS: false,
+      inactiveC: false
+   ]
 
    constructor() { }
 
    ngOnInit() { }
+
+   // activate(string: string) boolean {
+   //    if (inactiveG === true || inactiveS === true || inactiveC === true) {
+
+   //    }
+   // }
 
 }
